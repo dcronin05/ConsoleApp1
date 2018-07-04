@@ -41,9 +41,14 @@ namespace ConsoleApp1
 
             Console.WriteLine(string.Format("{0} : {1} : {2}", number[0], number[1], number[2]));
 
-            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine("\n----------------------------------------------------------\n");
 
             StringsDemo.Strings();
+
+            Console.WriteLine("\n----------------------------------------------------------\n");
+
+            var enumsDemo = new EnumsDemo();
+            enumsDemo.ShippingClass();
 
             Console.ReadKey();
         }
