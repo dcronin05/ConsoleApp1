@@ -22,7 +22,7 @@ namespace ConsoleApp1
                 @"{0}
 {1}
 {2}
-{3}", firstName, fullName, string.Join(", ", names), text));
+{3} Plus, some other stuff!", firstName, fullName, string.Join(", ", names), text));
         }
 
     }
